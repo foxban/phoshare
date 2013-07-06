@@ -22,6 +22,8 @@ import re
 import sys
 import time
 import unicodedata
+reload(sys)
+sys.setdefaultencoding("UTF-8")
 
 from optparse import OptionParser
 from Carbon.File import FSResolveAliasFile
